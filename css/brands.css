@@ -29,6 +29,24 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
+
+
+.avatar:hover {
+  transform: scale(1.5) rotate(5deg);
+  box-shadow: 0px 5px 10px rgba(16, 173, 11, 0.2);
+  opacity: 0.8;
+  transition: all 0.8s ease-in-out;
+}
+
+.avatar:hover{
+  transform: scale(1.5) rotate(5deg);
+  box-shadow: 5px 56px 10px rgba(3, 245, 23, 0.2);
+  opacity: 0.8;
+  transition: all 0.8s ease-in-out;
+}
+
+
 .button,
 button {
   display: inline-block;
